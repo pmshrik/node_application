@@ -1,0 +1,16 @@
+{
+  "name": "node-3tier-app",
+  "version": "1.0.0",
+  "description": "Simple 3-tier Node.js application",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "keywords": ["nodejs", "3-tier", "express"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
